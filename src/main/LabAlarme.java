@@ -4,9 +4,9 @@ import java.util.Calendar;
 import java.text.SimpleDateFormat;
 import java.util.EventObject;
 
-@SuppressWarnings("serial")
 public abstract class LabAlarme extends EventObject{
 
+	private static final long serialVersionUID = -765089326074937701L;
 	private Calendar date = Calendar.getInstance();
 	private String localisation;
 	private int niveau_alarme;

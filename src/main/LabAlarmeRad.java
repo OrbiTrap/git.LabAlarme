@@ -2,9 +2,9 @@ package main;
 
 import java.util.Calendar;
 
-@SuppressWarnings("serial")
 public class LabAlarmeRad extends LabAlarme {
-	
+
+	private static final long serialVersionUID = 2216683135652513711L;
 	private int radlevel;
 
 	public LabAlarmeRad(Object source, Calendar date, String localisation,

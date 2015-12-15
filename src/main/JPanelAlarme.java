@@ -4,9 +4,9 @@ import java.awt.LayoutManager;
 
 import javax.swing.JPanel;
 
-@SuppressWarnings("serial")
 public class JPanelAlarme extends JPanel {
 
+	private static final long serialVersionUID = 2060421530571648374L;
 	int index = 0;
 	public JPanelAlarme(int i) {
 		super();

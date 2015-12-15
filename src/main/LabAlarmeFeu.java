@@ -2,8 +2,9 @@ package main;
 
 import java.util.Calendar;
 
-@SuppressWarnings("serial")
 public class LabAlarmeFeu extends LabAlarme {
+
+	private static final long serialVersionUID = 1466854885607807666L;
 
 	public LabAlarmeFeu(Object source, Calendar date, String localisation,
 			int niveau_alarme, String type) {

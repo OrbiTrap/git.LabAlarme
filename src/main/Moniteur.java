@@ -4,15 +4,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-
-import javafx.scene.control.ScrollPane;
-
+//import javafx.scene.control.ScrollPane;
 import javax.swing.*;
 import javax.swing.text.DefaultCaret;
 
-@SuppressWarnings({ "serial", "unused" })
 public class Moniteur extends JFrame implements EcouteurAlarme,EcouteurCreationCapteur {
 
+	private static final long serialVersionUID = 4730710537549902418L;
 	protected String type;
 	protected String nom;
 	protected ArrayList<String> types = new ArrayList<String>();

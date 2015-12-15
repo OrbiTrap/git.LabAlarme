@@ -11,9 +11,9 @@ import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.text.NumberFormatter;
 
-@SuppressWarnings("serial")
 public class FenetreCapteur extends JFrame {
 
+	private static final long serialVersionUID = 7975303920488619828L;
 	ArrayList<Capteur> listeCapteur = new ArrayList<Capteur>();
 	JComboBox<String> listeCap = new JComboBox<String>();
 	ArrayList<Moniteur> listeMoniteur = new ArrayList<Moniteur>();

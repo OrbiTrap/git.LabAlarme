@@ -7,9 +7,10 @@ import javax.swing.SwingUtilities;
 /**
  *  FlowLayout subclass that fully supports wrapping of components.
  */
-@SuppressWarnings("serial")
 public class WrapLayout extends FlowLayout
 {
+	
+	private static final long serialVersionUID = -7299391207460315767L;
 	@SuppressWarnings("unused")
 	private Dimension preferredLayoutSize;
 

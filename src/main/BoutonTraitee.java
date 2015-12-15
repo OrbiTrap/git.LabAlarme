@@ -4,8 +4,9 @@ import javax.swing.Action;
 import javax.swing.Icon;
 import javax.swing.JButton;
 
-@SuppressWarnings("serial")
 public class BoutonTraitee extends JButton {
+
+	private static final long serialVersionUID = -1174152652415940241L;
 
 	public int getIndexListeAlarme() {
 		return indexListeAlarme;

@@ -2,9 +2,9 @@ package main;
 
 import java.util.Calendar;
 
-@SuppressWarnings("serial")
 public class LabAlarmeGaz extends LabAlarme {
 
+	private static final long serialVersionUID = -4824861701812858434L;
 	private String typeGaz;
 	
 	public LabAlarmeGaz(Object source, Calendar date, String localisation,
